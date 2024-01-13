@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.8",
+    "@nuxt/test-utils": "^3.9.0",
+    "autoprefixer": "^10.4.14",
+    "babel": "^6.23.0",
+    "nuxt": "^3.4.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  },
+  "dependencies": {
+    "@growthbunker/vueflags": "^0.1.14",
+    "@nuxtjs/axios": "^5.13.6",
+    "@pinia/nuxt": "^0.4.8",
+    "@vueform/multiselect": "^2.6.2",
+    "pinia": "^2.0.34",
+    "pinia-plugin-persist": "^1.0.0",
+    "vue-toast-notification": "^3.1.1",
+    "vue3-multiselect-checkboxed": "^0.0.8"
+  }
+}

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .app-container {
+        @apply px-[16px] lg:px-[30px] xl:px-[50px] 2xl:px-[70px] 3xl:px-[84px] mx-auto;
+    }
+    .identity-bg {
+        @apply bg-gradient-to-r from-[#D20653] to-[#ff951d] text-white;
+    }
+    .active-nav {
+        @apply bg-black pb-1 rounded-md cursor-default
+    }
+    .active-nav-responsive{
+        @apply bg-first pb-1 rounded-md cursor-default
+
+    }
+}
+
+@layer base {
+    html {
+      font-family: "Nunito", Helvetica, sans-serif;
+    }
+  }

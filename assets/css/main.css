@@ -1,0 +1,19 @@
+@import "./tailwind.css";
+
+:root {
+  --main-color:#333;
+  --second-color:#828282;
+  --active-color:#D20653;
+  --identity-color:#FF951D;
+  --card-color:#FFF5E9;
+
+}
+body {
+  background-color: #F6F4F5;
+  color: var(--main-color);
+}
+
+::selection {
+  color: var(--card-color);
+  background-color:#FF951D ;
+}
